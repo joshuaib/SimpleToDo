@@ -12,17 +12,14 @@ The following functionality is completed:
 
 * [ ] User can view a list of todo items
 * [ ] User can successfully add and remove items from the todo list
-* [ ] User's list of items persisted** upon modification and and retrieved properly on app restart
+* [ ] User's list of items persisted upon modification and and retrieved properly on app restart
 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/a/BsS7q8M' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-
-## Notes
+! [Walkthrough](SimpleToDo.gif)
 
 ## License
 
