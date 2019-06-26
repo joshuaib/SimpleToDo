@@ -10,12 +10,14 @@
         android:id="@+id/btnAddItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_marginEnd="40dp"
         android:layout_marginRight="40dp"
-        android:text="Add"
+        android:layout_marginBottom="8dp"
         android:onClick="onAddItem"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lvItems" />
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ListView
         android:id="@+id/lvItems"
@@ -34,6 +36,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:layout_alignParentBottom="true"
         android:ems="10"
         android:hint="Add a new item"
         android:inputType="textPersonName"
@@ -42,5 +45,5 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lvItems"
-        app:layout_constraintVertical_bias="0.757" />
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
