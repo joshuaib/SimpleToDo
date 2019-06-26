@@ -14,7 +14,7 @@ The following functionality is completed:
 * [x] User can successfully add and remove items from the todo list
 * [x] User's list of items persisted upon modification and and retrieved properly on app restart
 
-
+Added stretch functionality to edit inputs
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
